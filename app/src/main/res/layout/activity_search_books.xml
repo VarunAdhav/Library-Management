@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_Books"
+    android:background="@drawable/bg"
+    android:alpha="0.8">
+
+
+    <Button
+        android:id="@+id/SearchB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableRight="@drawable/ic_search"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/SBook"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SearchB"
+        android:layout_alignStart="@+id/SearchB"
+        android:layout_alignEnd="@+id/SearchB"
+        android:layout_marginStart="-75dp"
+        android:layout_marginEnd="-89dp"
+        android:layout_marginBottom="41dp"
+        android:ems="10"
+        android:hint="Book Name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="50dp"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/BN"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SearchB"
+        android:layout_alignStart="@+id/SearchB"
+        android:layout_alignEnd="@+id/SearchB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-128dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="-126dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/availability"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SearchB"
+        android:layout_alignStart="@+id/BN"
+        android:layout_alignEnd="@+id/BN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="44dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

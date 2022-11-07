@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin"
+    android:background="@drawable/bg"
+    android:alpha="0.8"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageView
+        android:id="@+id/Admin"
+        android:layout_width="150dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/admin" />
+
+    <Button
+        android:id="@+id/CreateBr"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableRight="@drawable/ic_search"
+        android:text="Search Books"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/Create"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="-253dp"
+        android:layout_toEndOf="@+id/CreateBr"
+        android:drawableRight="@drawable/ic_add"
+        android:text="Add Books"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <TextView
+        android:id="@+id/AdminW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Admin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="255dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Admin"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

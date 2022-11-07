@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621503888340",
+    "project_id": "library-management-fc5bc",
+    "storage_bucket": "library-management-fc5bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621503888340:android:469375776139ed55da7441",
+        "android_client_info": {
+          "package_name": "com.example.librarymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621503888340-tbdosr86ppc5bmuqbjr0lb5mf00svvsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFnHKPrijHYbVSZERBUa8yTuyVjfoLUD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621503888340-tbdosr86ppc5bmuqbjr0lb5mf00svvsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

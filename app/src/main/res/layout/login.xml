@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@drawable/bg">
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Log"
+        android:layout_alignStart="@+id/Log"
+        android:layout_alignEnd="@+id/Log"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-91dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="-97dp"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:hint="Password"
+        android:drawableRight="@drawable/ic_password"
+        android:inputType="textPassword"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/EmailId"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EmailId"
+        app:layout_constraintTop_toBottomOf="@+id/EmailId" />
+
+    <EditText
+        android:id="@+id/EmailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Password"
+        android:layout_alignStart="@+id/Log"
+        android:layout_alignEnd="@+id/Log"
+        android:layout_marginStart="-89dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="-99dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_account"
+        android:hint="Email Id"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Log In"
+        app:layout_constraintEnd_toEndOf="@+id/EmailId"
+        app:layout_constraintStart_toStartOf="@+id/EmailId"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/Sign"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DisplayMsg"
+        android:layout_alignStart="@+id/Log"
+        android:layout_alignEnd="@+id/Log"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-2dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#009688"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#F4F3F3"
+        android:textColorLink="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/DisplayMsg"
+        android:layout_width="195dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/Log"
+        android:layout_alignStart="@+id/Log"
+        android:layout_alignEnd="@+id/Log"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-52dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-53dp"
+        android:text="Want to Sign Up?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/LogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="20dp"
+        android:text="Log In"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ImgLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="50dp"
+        app:srcCompat="@drawable/login" />
+
+
+</RelativeLayout>
